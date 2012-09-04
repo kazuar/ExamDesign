@@ -1,0 +1,26 @@
+body {
+	letter-spacing:0;
+	color:#434343;
+	background:#efefef url(../img/background.png) repeat top center;
+	padding:20px 0 100px 100px;
+	position:relative;
+	font-family: Arial, sans-serif;
+	width: 80%;
+	margin: auto;
+}
+
+h1, hr {
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner {
+	background: black;
+	padding: 5px;
+	color: white;
+	margin-top: 5px;
+}
+
+table {
+	font-size: 1em;
+}

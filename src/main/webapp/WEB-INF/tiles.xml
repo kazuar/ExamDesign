@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="base" template="/WEB-INF/jsp/layout.jsp">
+        <put-attribute name="title" value="Exams Designer" />
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />
+        <put-attribute name="body" value="" />
+    </definition>
+ 
+ 	<definition name="home" extends="base">
+        <put-attribute name="title" value="Tests Designer" />
+        <put-attribute name="body" value="/WEB-INF/jsp/home.jsp" />
+    </definition>
+    
+    <definition name="users" extends="base">
+        <put-attribute name="body" value="/WEB-INF/jsp/users.jsp" />
+    </definition>
+    
+    <definition name="answers" extends="base">
+        <put-attribute name="body" value="/WEB-INF/jsp/answers.jsp" />
+    </definition>
+    
+    <definition name="questions" extends="base">
+        <put-attribute name="body" value="/WEB-INF/jsp/questions.jsp" />
+    </definition>
+    
+    <definition name="/newquestion" extends="base">
+        <put-attribute name="body" value="/WEB-INF/jsp/newquestion.jsp" />
+    </definition>
+    
+    <definition name="categories" extends="base">
+        <put-attribute name="body" value="/WEB-INF/jsp/categories.jsp" />
+    </definition>
+    
+    <definition name="difficulties" extends="base">
+        <put-attribute name="body" value="/WEB-INF/jsp/difficulties.jsp" />
+    </definition>
+    
+    <definition name="questiontypes" extends="base">
+        <put-attribute name="body" value="/WEB-INF/jsp/questiontypes.jsp" />
+    </definition>
+    
+    <definition name="exams" extends="base">
+        <put-attribute name="body" value="/WEB-INF/jsp/exams.jsp" />
+    </definition>
+    
+    <definition name="/newexam" extends="base">
+        <put-attribute name="body" value="/WEB-INF/jsp/newexam.jsp" />
+    </definition>
+    
+    <definition name="/runexam" extends="base">
+        <put-attribute name="body" value="/WEB-INF/jsp/runexam.jsp" />
+    </definition>
+    
+</tiles-definitions>
